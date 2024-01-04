@@ -1,0 +1,120 @@
+.lander {
+  height: fit-content;
+  background-image: linear-gradient(black 90%, white 90%);
+  width: 100%;
+  color: white;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.herosection {
+  width: 80%;
+  margin-top: 9em;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+
+}
+
+.heroinfo {
+  display: flex;
+  height: fit-content;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 48%;
+  gap: 3.6em;
+  margin-top:4.3em;
+}
+
+.heroinfo h1 {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 51.261px;
+  font-style:normal;
+  font-weight: 700;
+  line-height: 120%; /* 61.513px */
+}
+
+.heroinfo h2 {
+  color: #565656;
+  font-family: Days One;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 90%;
+  letter-spacing: 0.0em;
+}
+
+.countbox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 64%;
+}
+
+.box1,
+.box2 {
+  height: fit-content;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.box1 h2 {
+  color: #fff;
+  font-family: Days One;
+  font-size: 26.271px;
+  font-style: normal;
+  font-weight: 400;
+  padding-bottom: 0.5em;
+}
+
+.box1 h3 {
+  color: #565656;
+  font-family: Days One;
+  font-size: 23.644px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.box1 h2 span,
+.box2 h2 span {
+  color: #bb6528;
+}
+
+.box2 h2 {
+  color: #fff;
+  font-family: Days One;
+  font-size: 26.271px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-bottom: 0.5em;
+}
+
+.box2 h3 {
+  color: #565656;
+  font-family: Days One;
+  font-size: 23.644px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.heroimgcontainer {
+  border-radius: 281.911px 281.911px 10.568px 10.568px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 4px 2px 50px 0px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(26.421232223510742px);
+  display: flex;
+  width: 565.554px;
+  height: 691px;
+  padding: 28.191px 40.595px;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+}
