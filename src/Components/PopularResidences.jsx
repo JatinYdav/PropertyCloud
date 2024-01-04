@@ -6,7 +6,7 @@ const PopularResidences = () => {
         <div className="prheader">
         
         </div>
-        <div className="residence1"></div>
+        <div className="residence1">ok</div>
         <div className="residence2"></div>
         <div className="residence3"></div>
     </div>
