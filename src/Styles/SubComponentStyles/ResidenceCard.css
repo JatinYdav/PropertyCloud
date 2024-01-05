@@ -1,0 +1,40 @@
+.cardinfo{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 0.5em;
+    flex-direction: column;
+    padding-left: 1em;
+}
+
+.rlocation {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: Inter;
+  font-size: 16.8px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  
+  gap: 0.5em;
+}
+
+.rname {
+  color: #000;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.rdescription {
+  color: #868484;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+}
