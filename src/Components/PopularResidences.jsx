@@ -34,6 +34,6 @@ const PopularResidences = () => {
       </div>
     </div>
   );
-}
+} 
 
 export default PopularResidences
