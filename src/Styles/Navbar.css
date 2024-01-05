@@ -22,7 +22,7 @@ nav {
   justify-content: space-between;
   flex-direction: row;
   list-style: none;
-  gap: 3em;
+  gap: 4em;
 }
 
 .navitem {
@@ -32,7 +32,6 @@ nav {
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  border: 1px solid black;
 }
 
 .i4 {
