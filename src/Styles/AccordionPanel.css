@@ -9,7 +9,21 @@
   gap: 1em;
 }
 
+
 .accordion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+.accordion-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1em;
   border: 2px solid green;
   width: 40%;
   border-radius: 9px;
@@ -18,15 +32,6 @@
   box-shadow: 2px 4px 6px 0px rgba(0, 0, 0, 0.5);
   padding: 8px 12px;
 }
-
-.accordion-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 1em;
-}
-
 .accordion-content h1 {
   display: flex;
   align-items: center;
