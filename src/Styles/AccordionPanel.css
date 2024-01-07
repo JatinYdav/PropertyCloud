@@ -19,7 +19,10 @@
   max-width: 90%;
   flex-direction: column;
   gap: 1em;
-  border: 1px solid red;
+  border-radius: 9px;
+  border: 4px solid #fafcfe;
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: 2px 4px 6px 0px rgba(0, 0, 0, 0.5);
 }
 
 .item header {
@@ -55,16 +58,15 @@
   font-style: normal;
   font-weight: 600;
   line-height: 141%; /* 22.56px */
-
 }
 
 .itemdescription {
   max-height: 0;
   overflow: hidden;
-  transition: max-height 0.5s ease-in-out;
+  transition: max-height 0.3s ease-in-out;
 }
 
 .show {
   max-height: 90px;
-  transition: max-height 0.5s ease-in-out;
+  transition: max-height 0.3s ease-in-out;
 }

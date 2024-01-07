@@ -67,14 +67,14 @@ const data = [
   },
   {
     icon: <ACPicon4 />,
-    heading: "Exquisite Properties",
+    heading: "Industrial Deals",
     description:
-      " We pride ourselves on delivering unparalleled real estate experiences, connecting you with the most luxurious and sought-after homes. With our expert team and extensive network, we ensure that your dream property becomes a reality.",
+      " We specialize in industrial land deals, catering to the needs of businesses &  investors alike.Our expert team understands the unique requirements of industrial ventures, and take pride in connecting you with prime locations that fuel growth and success.",
   },
   {
     icon: <ACPicon4 />,
     heading: "Sell & Buy",
     description:
-      "Whether you're looking to buy your dream property or sell your current one, we got you covered. Our dedicated team uses innovative marketing strategies & leverages our extensive network to ensure a seamless selling experience for your property.We pride ourselves on delivering unparalleled real estate experiences,connecting you with the most luxurious and sought-after homes. With our expert team and extensive network, we ensure that your dream property becomes a reality.",
+      "Whether you're looking to buy your dream property or sell your current one, we got you covered. Our dedicated team uses innovative marketing strategies & leverages our extensive network to ensure a seamless selling experience for your property.",
   },
 ];
