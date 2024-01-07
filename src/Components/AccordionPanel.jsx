@@ -1,109 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import "../Styles/AccordionPanel.css";
 import ArrowDownCircle from "../Svgs/SmallIcons/ArrowDownCircle";
 import ACPicon1 from "../Svgs/SmallIcons/ACPicon1";
 import ACPicon4 from "../Svgs/SmallIcons/ACPicon4";
 
-const accordionContent = document.querySelectorAll(".accordion-content")
 
-accordionContent.forEach((item,index)=>{
-  let header=item.querySelector(".h1")
-  header.addEventListener("click",()=>{
-    item.classList.toggle("open")
-    let description=item.querySelector(".accordiondescription")
-    if(item.classList.contains("open")){
-      description.style.height=`${description.scrollHeight}px`
-      
-    }else{
-      description.style.height="0px"
-    }
-    removeOpen(index)
-  })
-})
 
-function removeOpen (index){
-  accordionContent.forEach((item2,index2)=>{
-    if(index !== index2){
-      item2.classList.remove("open")
-      let des=item2.querySelector(".accordiondescription")
-      des.style.height="0px"
-    }
-  })
-}
 
 const AccordionPanel = () => {
-
-
-
   return (
-    <div className="accordionpanel">
-      <div className="accordion">
-        <div className="accordion-content">
-          <h1 className="h1">
-            <div className="subbox">
-              <ACPicon1 />
-              <span>Exquisite Properties</span>
-            </div>
-            <ArrowDownCircle/>
-          </h1>
-          <p className="accordiondescription">
-            We pride ourselves on delivering unparalleled real estate
-            experiences,connecting you with the most luxurious and sought-after
-            homes. With our expert team and extensive network, we ensure that
-            your dream property becomes a reality.
-          </p>
-        </div>
-      </div>
+    <div>AccordionPanel</div>
+  )
+}
 
-      <div className="accordion-content">
-        <h1 className="h1">
-          <div className="subbox">
-            <ACPicon4 />
-            <span>Best Prices in the Market</span>
-          </div>
-          <ArrowDownCircle />
-        </h1>
-        <p className="accordiondescription">
-          We not only bring you the best properties in town, but also ensure
-          that you secure them at the most competitive prices in the market. Our
-          dedicated team tirelessly negotiates to get you the best deals,
-          maximizing the value of your investment.
-        </p>
-      </div>
+export default AccordionPanel
 
-      <div className="accordion-content">
-        <h1 className="h1">
-          <div className="subbox">
-            <ACPicon4 />
-            <span>Industrial Deals</span>
-          </div>
-          <ArrowDownCircle />
-        </h1>
-        <p className="accordiondescription">
-          We pride ourselves on delivering unparalleled real estate experiences,
-          connecting you with the most luxurious and sought-after homes. With
-          our expert team and extensive network, we ensure that your dream
-          property becomes a reality.
-        </p>
-      </div>
 
-      <div className="accordion-content">
-        <h1 className="h1">
-          <div className="subbox">
-            <ACPicon4 />
-            <span>Sell & Buy</span>
-          </div>
-          <ArrowDownCircle />
-        </h1>
-        <p className="accordiondescription">
-          Whether you're looking to buy your dream property or sell your current
-          one, we got you covered. Our dedicated team uses innovative marketing
-          strategies & leverages our extensive network to ensure a seamless
-          selling experience for your property.
-        </p>
-      </div>
-    </div>
-  );
-};
-
-export default AccordionPanel;
