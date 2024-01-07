@@ -1,42 +1,70 @@
-.accordionpanel{
-    max-width: 85%;
+.accordionpanel {
+  max-width: 85%;
 }
 
-.accordions{
-    max-width: 40%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 1em;
-
+.accordions {
+  max-width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1em;
+  border: 1px solid black;
 }
 
-.item{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 1em;
-    border: 1px solid red;
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 90%;
+  flex-direction: column;
+  gap: 1em;
+  border: 1px solid red;
 }
 
-.item header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    cursor: pointer;
+.item header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  width: 100%;
+}
+
+.title h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+  border: 1px solid red;
+  color: #000;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.item p {
+  display: flex;
+  width: 80%;
+  flex-direction: column;
+  justify-content: center;
+  color: #000;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 141%; /* 22.56px */
+
 }
 
 .itemdescription {
   max-height: 0;
   overflow: hidden;
-  transition: max-height 0.5s ease-in-out; /* Adjust duration and timing function */
+  transition: max-height 0.5s ease-in-out;
 }
 
 .show {
-  max-height: 90px; /* Adjust this value based on your content height */
-  transition: max-height 0.5s ease-in-out
+  max-height: 90px;
+  transition: max-height 0.5s ease-in-out;
 }
-
-

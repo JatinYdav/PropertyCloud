@@ -1,22 +1,19 @@
 import React, { useState } from "react";
 import "../Styles/AccordionPanel.css";
 import ArrowDownCircle from "../Svgs/SmallIcons/ArrowDownCircle";
-import ArrowUpCircle from "../Svgs/SmallIcons/ArrowUpCircle"
+import ArrowUpCircle from "../Svgs/SmallIcons/ArrowUpCircle";
 import ACPicon1 from "../Svgs/SmallIcons/ACPicon1";
 import ACPicon4 from "../Svgs/SmallIcons/ACPicon4";
 
 const AccordionPanel = () => {
+  const [selected, setSelected] = useState(null);
 
-  const[selected,setSelected]=useState(null)
-
-  const toggle = (index) =>{
-    if(selected===index){
-      return setSelected(null)
+  const toggle = (index) => {
+    if (selected === index) {
+      return setSelected(null);
     }
-    setSelected(index)
-
-  }
-
+    setSelected(index);
+  };
 
   return (
     <div className="accordionpanel">
@@ -30,9 +27,10 @@ const AccordionPanel = () => {
                   toggle(index);
                 }}
               >
-                {item.icon}
                 <h1>
+                  {item.icon}
                   {item.heading}
+                </h1>
                   <span>
                     {selected === index ? (
                       <ArrowUpCircle />
@@ -40,15 +38,8 @@ const AccordionPanel = () => {
                       <ArrowDownCircle />
                     )}
                   </span>
-                </h1>
               </header>
-              <p
-                className={
-                  selected === index
-                    ? "show"
-                    : "itemdescription"
-                }
-              >
+              <p className={selected === index ? "show" : "itemdescription"}>
                 {item.description}
               </p>
             </div>
