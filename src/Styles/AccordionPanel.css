@@ -1,0 +1,42 @@
+.accordionpanel{
+    max-width: 85%;
+}
+
+.accordions{
+    max-width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1em;
+
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1em;
+    border: 1px solid red;
+}
+
+.item header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.itemdescription {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-in-out; /* Adjust duration and timing function */
+}
+
+.show {
+  max-height: 90px; /* Adjust this value based on your content height */
+  transition: max-height 0.5s ease-in-out
+}
+
+
