@@ -1,4 +1,7 @@
 .accordionpanel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   max-width: 85%;
   border: 1px solid green;
 }
