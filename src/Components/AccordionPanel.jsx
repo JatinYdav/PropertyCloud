@@ -4,6 +4,7 @@ import ArrowDownCircle from "../Svgs/SmallIcons/ArrowDownCircle";
 import ArrowUpCircle from "../Svgs/SmallIcons/ArrowUpCircle";
 import ACPicon1 from "../Svgs/SmallIcons/ACPicon1";
 import ACPicon4 from "../Svgs/SmallIcons/ACPicon4";
+import MemoACPImg from "../Svgs/ACPImg";
 
 const AccordionPanel = () => {
   const [selected, setSelected] = useState(null);
@@ -17,6 +18,9 @@ const AccordionPanel = () => {
 
   return (
     <div className="accordionpanel">
+      <div className="acpimgcontainer">
+        <MemoACPImg/>
+      </div>
       <div className="accordions">
         {data.map((item, index) => {
           return (
