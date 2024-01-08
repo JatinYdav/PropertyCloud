@@ -2,8 +2,23 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 3em;
   max-width: 85%;
   border: 1px solid green;
+}
+
+.acpimgcontainer {
+  display: flex;
+  width: 509.08px;
+  height: 622px;
+  padding: 25.376px 36.542px;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 253.761px 253.761px 35px 35px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: -8px 5px 15px 12px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(23.782936096191406px);
 }
 
 .accordions {
