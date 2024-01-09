@@ -19,9 +19,19 @@ const AccordionPanel = () => {
   return (
     <div className="accordionpanel">
       <div className="acpimgcontainer">
-        <MemoACPImg/>
+        <span className="acpimg">
+          <MemoACPImg />
+        </span>
       </div>
       <div className="accordions">
+        <span className="acpinfo">
+          <h3>Our Services</h3>
+          <h1>Value we provide you</h1>
+          <h2>
+            We are eager to help by providing the best service for you . We
+            believe a good place to live can make your life better
+          </h2>
+        </span>
         {data.map((item, index) => {
           return (
             <div className="item">
@@ -35,13 +45,9 @@ const AccordionPanel = () => {
                   {item.icon}
                   {item.heading}
                 </h1>
-                  <span>
-                    {selected === index ? (
-                      <ArrowUpCircle />
-                    ) : (
-                      <ArrowDownCircle />
-                    )}
-                  </span>
+                <span>
+                  {selected === index ? <ArrowUpCircle /> : <ArrowDownCircle />}
+                </span>
               </header>
               <p className={selected === index ? "show" : "itemdescription"}>
                 {item.description}

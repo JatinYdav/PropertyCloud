@@ -1,8 +1,8 @@
 .accordionpanel {
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 3em;
+  justify-content: space-around;
+  gap: 1.5em;
   max-width: 85%;
   border: 1px solid green;
 }
@@ -21,14 +21,55 @@
   backdrop-filter: blur(23.782936096191406px);
 }
 
+.acpimg {
+  width: fit-content;
+  overflow: hidden;
+  height: 587.225px;
+  flex-shrink: 0;
+  border-top-left-radius: 28em;
+  border-top-right-radius: 28em;
+  border-bottom-left-radius: 4em;
+  border-bottom-right-radius: 4em;
+  border: 1px solid red;
+}
+
 .accordions {
   max-width: 50%;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   flex-direction: column;
-  gap: 1em;
+  gap: 2em;
   border: 1px solid black;
+
+}
+
+.accordions h3 {
+  color: #e86f18;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.accordions h1 {
+  color: #1d365e;
+  font-family: Poppins;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.accordions h2 {
+  color: #868484;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-bottom: 1em;
 }
 
 .item {
@@ -87,7 +128,7 @@
 }
 
 .show {
-  max-height: 90px;
+  max-height: 9999px;
   transition: max-height 0.3s ease-in-out;
   padding-bottom: 1em;
 }

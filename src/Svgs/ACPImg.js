@@ -2,7 +2,7 @@ import * as React from "react";
 
 function ACPImg(props) {
   return (
-    <svg width="40em" height="40em" viewBox="0 0 459 572" fill="none" {...props}>
+    <svg width="27.5em" height="36em" viewBox="0 0 459 572" fill="none" {...props}>
       <path
         fill="url(#prefix__pattern0)"
         d="M-63.642.072h739.52v587.225h-739.52z"
