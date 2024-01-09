@@ -9,7 +9,7 @@ const ResidenceCard = (props) => {
   return (
     <div className="{props.className} card">
       <div className="cardimg">
-        <img src={(props.display===1)?Residence1:(props.display===2)?Residence2:Residence3} alt="r1" className='cardimgg'/>
+        <img src={(props.display===1)?Residence1:(props.display===2)?Residence2:Residence3} alt="ResidenceImage" className='cardimgg'/>
       </div>
       <div className="cardinfo">
         <h2 className="rlocation">
