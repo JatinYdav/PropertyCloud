@@ -1,4 +1,5 @@
 import AccordionPanel from './Components/AccordionPanel';
+import ContactSection from './Components/ContactSection';
 import LandingPage from './Components/LandingPage';
 import PopularResidences from './Components/PopularResidences';
 import Societies from './Components/SocietyLogos';
@@ -9,6 +10,7 @@ function App() {
       <Societies/>
       <PopularResidences/>
       <AccordionPanel/>
+      <ContactSection/>
     </div>
   );
 }

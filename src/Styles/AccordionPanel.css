@@ -1,10 +1,10 @@
 .accordionpanel {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-around;
   gap: 1.5em;
   max-width: 85%;
-  border: 1px solid green;
+  padding-bottom: 2em;
 }
 
 .acpimgcontainer {
@@ -13,7 +13,7 @@
   height: 622px;
   padding: 25.376px 36.542px;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   flex-shrink: 0;
   border-radius: 253.761px 253.761px 35px 35px;
   background: rgba(255, 255, 255, 0.1);
@@ -30,7 +30,6 @@
   border-top-right-radius: 28em;
   border-bottom-left-radius: 4em;
   border-bottom-right-radius: 4em;
-  border: 1px solid red;
 }
 
 .accordions {
@@ -40,8 +39,6 @@
   justify-content: center;
   flex-direction: column;
   gap: 2em;
-  border: 1px solid black;
-
 }
 
 .accordions h3 {

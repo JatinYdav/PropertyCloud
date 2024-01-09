@@ -1,0 +1,16 @@
+.contactsection {
+  width: 100%;
+  background-color: #121010;
+  height: 66vh;
+}
+
+
+
+.contactimg {
+  width: 40%;
+  border: 1px solid green;
+  height: 100%;
+  background-image: url('../Svgs/BackgroundSvgs/Frame\ 66.png');
+  background-repeat: no-repeat;
+  background-size:contain;
+}
