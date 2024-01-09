@@ -6,6 +6,7 @@
   display: flex;
   align-items: flex-start;
   justify-content: center;
+  
 }
 
 .herosection {
@@ -14,7 +15,7 @@
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-
+  gap: 2em;
 }
 
 .heroinfo {
@@ -111,10 +112,19 @@
   box-shadow: 4px 2px 50px 0px rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(26.421232223510742px);
   display: flex;
-  width: 565.554px;
-  height: 691px;
-  padding: 28.191px 40.595px;
-  justify-content: space-between;
+  width: 40%;
+  height: 40em;
+  padding:  33px;
+  justify-content: center;
   align-items: center;
   flex-shrink: 0;
+}
+
+.heroimg{
+  background-image: url('../Svgs/BackgroundSvgs/J570811908.main-entrance\ 1\ \(1\).svg');
+  background-repeat: no-repeat;
+  background-size:cover;
+  width: 100%;
+  border-radius: 18em 18em 10.568px 10.568px;
+  height: 100%;
 }

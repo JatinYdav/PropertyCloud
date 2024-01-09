@@ -1,6 +1,6 @@
 import React from "react";
 import "../Styles/LandingPage.css";
-import HeroImage from "../Svgs/HeroImage";
+
 const LandingPage = () => {
   return (
     <div className="lander">
@@ -25,7 +25,7 @@ const LandingPage = () => {
           </div>
         </div>
           <div className="heroimgcontainer">
-            <HeroImage/>
+            <div className="heroimg"></div>
         </div>
       </div>
     </div>
