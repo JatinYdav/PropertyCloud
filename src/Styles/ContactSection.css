@@ -1,20 +1,60 @@
 .contactsection {
   width: 100%;
   background-color: #121010;
-  height: 60vh;
+  height: 63vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .contactimgcontainer {
   height: 100%;
   width: 50%;
   border: 1px solid yellow;
-  background: url('../Svgs/BackgroundSvgs/3\ 1.svg');
+  background: url("../Svgs/BackgroundSvgs/3\ 1.svg");
   background-repeat: no-repeat;
   background-size: cover;
   
+  border: 1px solid yellow;
 }
 
-.contactimg{
+.contactimg {
   width: 100%;
-  
+}
+
+.contactheading {
+  width: 40%;
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: -1em;
+
+}
+
+
+.headingsubcontainer{
+  width: 100%;
+}
+
+.contactheading h1 {
+  text-align: center;
+  font-family: Inter;
+  font-size: 138.512px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 166.215px */
+  letter-spacing: -4.155px;
+  background: linear-gradient(180deg, #fff 54.69%, rgba(2, 4, 3, 0) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.heading1 {
+  border: 1px solid red;
+}
+.heading2 {
+  z-index: -11;
 }
