@@ -130,7 +130,9 @@
 
 @media screen and (max-width: 767px) {
   .herosection{
+    width: 90%;
     border: 1px solid red;
+    margin-top: 6em;
   }
   .heroinfo{
     width: 100%;
@@ -142,9 +144,17 @@
     display: none;
   }
   .heroinfo h1 {
-    font-size: 24.295px;
+    font-size: 27.295px;
   }
   .heroinfo h2{
-    font-size: 8.531px;
+    width: 100%;
+    font-size: 11px;
+  }
+  
+  .box1 h3,.box2 h2{
+    font-size: 14px;
+  }
+  .box1 h3,.box2 h3{
+    font-size: 12px;
   }
 }
