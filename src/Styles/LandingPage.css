@@ -129,15 +129,22 @@
 }
 
 @media screen and (max-width: 767px) {
+  .herosection{
+    border: 1px solid red;
+  }
+  .heroinfo{
+    width: 100%;
+    margin-top: 0;
+    gap: 1.5em;
+  }
+  
   .heroimgcontainer {
     display: none;
   }
   .heroinfo h1 {
-    color: #fff;
-    font-family: Montserrat;
     font-size: 24.295px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 120%; /* 29.154px */
+  }
+  .heroinfo h2{
+    font-size: 8.531px;
   }
 }
