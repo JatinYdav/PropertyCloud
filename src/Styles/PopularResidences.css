@@ -48,43 +48,50 @@
   gap: 1em;
 }
 
-.cardimg{
+.cardimg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   height: 50%;
 }
 
-.cardimgg{
+.cardimgg {
   width: 100%;
+  
 }
 
-@media screen and (max-width:767px) {
-
-  .residences{
+@media screen and (max-width: 767px) {
+  .residences {
     width: 90%;
   }
-  .prheader{
+  .prheader {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    border: 1px solid green;
   }
-  .prheader h3{
+  .prheader h3 {
     font-size: 18px;
   }
-  .prheader h2{
+  .prheader h2 {
     font-size: 20px;
   }
 
-  .cardbox{
+  .cardbox {
     flex-direction: column;
-    gap: 1em;
+    gap: 2em;
   }
 
-  .card{
+  .card {
     width: 100%;
   }
-  .cardimg{
+  .cardimg {
     width: 90%;
+
+  }
+  .cardimgg {
+    border-radius: 15px;
+    box-shadow: -6px 5px 18.1px 3px rgba(0, 0, 0, 0.45);
   }
 }
