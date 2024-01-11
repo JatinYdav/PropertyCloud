@@ -58,6 +58,24 @@
 }
 
 @media screen and (max-width:767px) {
+
+  .residences{
+    width: 90%;
+  }
+  .prheader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid green;
+  }
+  .prheader h3{
+    font-size: 18px;
+  }
+  .prheader h2{
+    font-size: 20px;
+  }
+
   .cardbox{
     flex-direction: column;
     gap: 1em;
@@ -65,5 +83,8 @@
 
   .card{
     width: 100%;
+  }
+  .cardimg{
+    width: 90%;
   }
 }

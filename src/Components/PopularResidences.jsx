@@ -2,7 +2,6 @@ import React from 'react'
 import ResidenceCard from './SubComponents/ResidenceCard'
 import '../Styles/PopularResidences.css'
 
-
 const PopularResidences = () => {
   return (
     <div className="residences">
