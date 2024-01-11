@@ -134,7 +134,6 @@
   
   .accordionpanel{
     width: 90%;
-    border: 1px solid black;
   }
   
   .acpimgcontainer{
@@ -143,7 +142,6 @@
 
   .accordions{
     width: 100%;
-    border: 1px solid red;
   }
 
   .acpinfo{
