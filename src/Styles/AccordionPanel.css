@@ -33,7 +33,7 @@
 }
 
 .accordions {
-  max-width: 50%;
+  width: 50%;
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -73,7 +73,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  max-width: 90%;
+  width: 90%;
   flex-direction: column;
   gap: 1em;
   border-radius: 9px;
@@ -131,7 +131,54 @@
 }
 
 @media screen and (max-width:767px) {
+  
+  .accordionpanel{
+    width: 90%;
+    border: 1px solid black;
+  }
+  
   .acpimgcontainer{
     display: none;
   }
+
+  .accordions{
+    width: 100%;
+    border: 1px solid red;
+  }
+
+  .acpinfo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.3em;
+  }
+
+  .accordions h3{
+    font-size: 18px;
+  }
+
+  .accordions h1{
+    font-size: 20px;
+  }
+
+  .accordions h2{
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .item{
+    width: 100%;
+    padding: 0.2em 0.2em;
+  }
+
+  .title h1{
+    font-size: 18px ;
+  }
+
+  .item p{
+    font-size: 14px;
+    width: 75%;
+  }
+
 }
