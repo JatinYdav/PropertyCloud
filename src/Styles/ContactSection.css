@@ -31,7 +31,29 @@
   border: 2.284px solid #fff;
   background: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(15.22986888885498px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
+
+.contactcardinfo1{
+  border: 1px solid red;
+  width: 90%;
+}
+.contactcardinfo2{
+  border: 1px solid red;
+  width: 90%;
+}
+.contactcardinfo3{
+  
+  text-align: center;
+  border: 1px solid red;
+  width: 90%;
+}
+
+
+
 
 .contactheading {
   width: 40%;
