@@ -58,3 +58,10 @@
 .heading2 {
   z-index: -11;
 }
+
+
+@media screen and (max-width:767px) {
+  .contactsection{
+    flex-direction: column-reverse;
+  }
+}
