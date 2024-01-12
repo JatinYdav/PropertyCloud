@@ -15,10 +15,22 @@
   background-repeat: no-repeat;
   background-size: cover;
   border: 1px solid yellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .contactimg {
   width: 100%;
+}
+
+.contactcard {
+  width: 80%;
+  height: 30vh;
+  border-radius: 20.56px;
+  border: 2.284px solid #fff;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(15.22986888885498px);
 }
 
 .contactheading {
@@ -29,11 +41,9 @@
   justify-content: center;
   flex-direction: column;
   gap: -1em;
-
 }
 
-
-.headingsubcontainer{
+.headingsubcontainer {
   width: 100%;
 }
 
@@ -58,19 +68,18 @@
   z-index: -11;
 }
 
-
-@media screen and (max-width:767px) {
-  .contactsection{
+@media screen and (max-width: 767px) {
+  .contactsection {
     flex-direction: column-reverse;
     height: 55vh;
   }
-  .contactimgcontainer{
+  .contactimgcontainer {
     width: 100%;
   }
-  .contactheading{
+  .contactheading {
     width: 90%;
   }
-  .contactheading h1{
+  .contactheading h1 {
     font-size: 75px;
   }
 }
