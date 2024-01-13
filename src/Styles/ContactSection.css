@@ -99,21 +99,21 @@
   font-style: normal;
   font-weight: 400;
   line-height:1em;
-  text-align:
 }
 
 .contactheading {
-  width: 40%;
-  border: 1px solid red;
+  width: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  gap: -1em;
+  height: fit-content;
 }
 
 .headingsubcontainer {
   width: 100%;
+  height: fit-content;
+  
 }
 
 .contactheading h1 {
@@ -122,19 +122,21 @@
   font-size: 138.512px;
   font-style: normal;
   font-weight: 700;
-  line-height: 120%; /* 166.215px */
   letter-spacing: -4.155px;
   background: linear-gradient(180deg, #fff 54.69%, rgba(2, 4, 3, 0) 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  
 }
 
 .heading1 {
-  border: 1px solid red;
+  line-height: 1em;
+  transform: translate(0,0.2em);
 }
 .heading2 {
-  z-index: -11;
+  line-height: 1em;
+  transform: translate(0, -0.2em);
 }
 
 @media screen and (max-width: 767px) {
