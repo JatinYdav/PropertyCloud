@@ -142,10 +142,11 @@
 @media screen and (max-width: 767px) {
   .contactsection {
     flex-direction: column-reverse;
-    height: 55vh;
+    height: fit-content;
   }
   .contactimgcontainer {
     width: 100%;
+    padding: 1.5em 0em;
   }
   .contactheading {
     width: 90%;
@@ -153,4 +154,26 @@
   .contactheading h1 {
     font-size: 75px;
   }
+
+  .contactcard{
+    width: 90%;
+    height: 33vh;
+    
+  }
+
+  .contactcardinfo1 h2{
+    font-size: 13.626px;
+  }
+  .contactcardinfo1 h1{
+    font-size: 28.387px;
+  }
+
+  .contactcardinfo2 h1{
+    font-size: 30.658px;
+  }
+
+  .contactcardinfo3 h3{
+    font-size: 14.911px;
+  }
+
 }
