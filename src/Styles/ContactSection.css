@@ -10,11 +10,9 @@
 .contactimgcontainer {
   height: 100%;
   width: 50%;
-  border: 1px solid yellow;
   background: url("../Svgs/BackgroundSvgs/3\ 1.svg");
   background-repeat: no-repeat;
   background-size: cover;
-  border: 1px solid yellow;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -26,34 +24,83 @@
 
 .contactcard {
   width: 80%;
-  height: 30vh;
+  height: 51vh;
+  gap: 2em;
   border-radius: 20.56px;
   border: 2.284px solid #fff;
   background: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(15.22986888885498px);
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   flex-direction: column;
+  padding: 1em 0.5em;
 }
 
-.contactcardinfo1{
-  border: 1px solid red;
+.inf12{
   width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5em;
 }
-.contactcardinfo2{
-  border: 1px solid red;
-  width: 90%;
+
+.contactcardinfo1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.9em;
 }
-.contactcardinfo3{
-  
+
+.contactcardinfo1 h2 {
+  color: #fff;
+  font-family: Moulpali;
+  font-size: 27.414px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 50%;
+  line-height: 1em;
+}
+
+.contactcardinfo1 h1 {
+  color: #000;
+  font-family: Moulpali;
+  font-size: 61px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1em;
+}
+
+.contactcardinfo2 {
+  width: 100%;
+}
+.contactcardinfo2 h1 {
+  color: #000;
+  font-family: Moulpali;
+  font-size: 61.681px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
   text-align: center;
-  border: 1px solid red;
+  line-height: 1em;
+}
+
+.contactcardinfo3 {
+  text-align: center;
   width: 90%;
 }
 
-
-
+.contactcardinfo3 h3 {
+  color: #000;
+  font-family: Moulpali;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height:1em;
+  text-align:
+}
 
 .contactheading {
   width: 40%;
