@@ -129,32 +129,42 @@
 }
 
 @media screen and (max-width: 767px) {
-  .herosection{
+
+  .lander{
+    padding-bottom: 2em;
+    background-image: linear-gradient(black 95%, white 90%);
+  }
+
+  .herosection {
     width: 90%;
-    border: 1px solid red;
+    
     margin-top: 6em;
   }
-  .heroinfo{
+  .heroinfo {
     width: 100%;
     margin-top: 0;
     gap: 1.5em;
   }
-  
-  .heroimgcontainer {
-    display: none;
+
+  .heroinfo h1{
+    font-size: 34.551px;
+    
   }
-  .heroinfo h1 {
-    font-size: 27.295px;
-  }
-  .heroinfo h2{
+
+  .heroinfo h2 {
     width: 100%;
-    font-size: 11px;
-  }
-  
-  .box1 h3,.box2 h2{
     font-size: 14px;
   }
-  .box1 h3,.box2 h3{
-    font-size: 12px;
+  
+  .box1 h2,
+  .box2 h2 {
+    font-size: 20px;
+  }
+  .box1 h3,
+  .box2 h3 {
+    font-size: 16px;
+  }
+  .heroimgcontainer {
+    display: none;
   }
 }
