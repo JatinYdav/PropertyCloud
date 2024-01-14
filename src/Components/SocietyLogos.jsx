@@ -1,18 +1,21 @@
-import React from 'react'
-import AshianaHousing from '../Svgs/AshianaHousing'
-import AvalonGroup from '../Svgs/AvalonGroup'
-import EldecoHousing from '../Svgs/EldecoHousing'
-import Ashadeep from '../Svgs/Ashadeep'
-import '../Styles/SocietyLogos.css'
+import React from "react";
+import AshianaHousing from "../Svgs/SocietyLogos/AshianaHousing.svg";
+import AvalonGroup from "../Svgs/SocietyLogos/AvalonGroup.svg";
+import EldecoHousing from "../Svgs/SocietyLogos/EldecoHousing.svg";
+import Ashadeep from "../Svgs/SocietyLogos/Ashadeep.svg";
+
+import "../Styles/SocietyLogos.css";
 const Socities = () => {
   return (
     <div className="societybox">
-      <AshianaHousing/>
-      <AvalonGroup/>
-      <EldecoHousing/>
-      <Ashadeep/>
+      <div className="societyscroller">
+        <img src={AshianaHousing} alt="Ashiana" />
+        <img src={AvalonGroup} alt="Avalon" />
+        <img src={EldecoHousing} alt="Eldeco" />
+        <img src={Ashadeep} alt="Ashadeep" />
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Socities
+export default Socities;

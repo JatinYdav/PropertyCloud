@@ -1,7 +1,22 @@
 .societybox{
     width: 80%;
+    
+}
+
+.societyscroller{
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap-reverse;
+
+}
+
+@media screen and (max-width:767px) {
+    .societybox{
+        width: 90%;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        border: 1px solid red;
+    }
+    .societyscroller{}
 }
