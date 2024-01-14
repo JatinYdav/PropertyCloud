@@ -143,7 +143,7 @@
   .heroinfo {
     width: 100%;
     margin-top: 0;
-    gap: 1.5em;
+    gap: 2em;
   }
 
   .heroinfo h1{
@@ -154,6 +154,10 @@
   .heroinfo h2 {
     width: 100%;
     font-size: 14px;
+  }
+
+  .countbox{
+    width: 75%;
   }
   
   .box1 h2,
